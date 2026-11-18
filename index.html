@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Quer vender o seu imóvel? Peça uma avaliação de mercado gratuita e sem compromisso com Ricardo Cavaca, Consultor Imobiliário na Predial Rainha Santa.">
+<title>Quer vender o seu imóvel? | Ricardo Cavaca</title>
+<meta name="theme-color" content="#54134b">
+<style>
+:root{--purple:#54134b;--purple2:#7b1b68;--gold:#e7c846;--ink:#24212a;--muted:#6b6672;--cream:#fbfaf8;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:20}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
+.brand{font-weight:850;color:var(--purple);letter-spacing:-.4px;line-height:1.1}.brand small{display:block;color:#82727e;font-weight:600;font-size:11px;letter-spacing:1.2px;margin-top:4px}
+.brand-lockup{display:flex;align-items:center;gap:12px}.brand-lockup img{width:112px;height:auto;object-fit:contain}.brand-lockup span{font-size:17px}.brand-lockup small{font-size:10px;letter-spacing:.8px}.navlinks{display:flex;align-items:center;gap:24px;font-size:14px;color:#4d4750}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:#2a2024;font-weight:800;border-radius:999px;padding:14px 21px;box-shadow:0 8px 22px #d7b82a33;transition:.2s;border:0;cursor:pointer}.btn:hover{transform:translateY(-2px);filter:brightness(.98)}.btn-purple{background:var(--purple);color:white;box-shadow:0 8px 22px #54134b30}.btn-outline{border:1px solid #e3dbe2;background:white;color:var(--purple);box-shadow:none}
+.hero{background:linear-gradient(115deg,#4b1044 0%,#741d64 68%,#4b1044 100%);color:#fff;overflow:hidden;position:relative}
+.hero:after{content:"";position:absolute;width:460px;height:460px;border:1px solid #ffffff17;border-radius:50%;right:-170px;top:-180px;box-shadow:0 0 0 50px #ffffff08,0 0 0 100px #ffffff05}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:35px;align-items:center;padding:76px 0 72px;position:relative;z-index:1}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin:0 0 14px}
+h1{font-size:clamp(36px,5vw,58px);line-height:1.06;letter-spacing:-1.7px;margin:0 0 20px;max-width:700px}
+.hero p{font-size:18px;color:#f3eaf2;max-width:580px;margin:0 0 27px}.hero .btn{font-size:16px;padding:16px 24px}
+.hero-note{font-size:13px;color:#e7d4e4;margin-top:14px}
+.profile-card{display:flex;align-items:center;gap:18px;background:#ffffff12;border:1px solid #ffffff24;padding:18px;border-radius:20px;backdrop-filter:blur(5px);max-width:400px;margin-top:28px}
+.profile-card img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--gold)}
+.profile-card strong{font-size:18px;display:block}.profile-card span{font-size:13px;color:#ead9e8}
+.visual{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center}.visual-box{width:min(360px,100%);aspect-ratio:1/1;background:linear-gradient(145deg,#fff,#f4e9f2);border-radius:32px;padding:24px;box-shadow:0 24px 70px #1b061c40;transform:rotate(2deg);color:var(--purple);display:flex;flex-direction:column;justify-content:center;text-align:center}
+.visual-box .big{font-size:72px;line-height:1;font-weight:900;letter-spacing:-4px}.visual-box h3{font-size:22px;margin:12px 0}.visual-box p{color:#6f566b;font-size:15px;margin:0}.visual-box .pill{margin:20px auto 0;background:var(--gold);padding:9px 15px;border-radius:30px;font-size:12px;font-weight:800}
+section{padding:76px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 42px}.section-head .eyebrow{color:var(--purple)}h2{font-size:clamp(27px,3vw,40px);letter-spacing:-1px;line-height:1.14;margin:0 0 14px}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #eee8ef;padding:26px;border-radius:18px;box-shadow:0 8px 28px #3a1a3406}.icon{font-size:28px;margin-bottom:13px}.card h3{margin:0 0 8px;font-size:18px}.card p{color:var(--muted);font-size:14px;margin:0}
+.soft{background:#f3edf3}.sell-types{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.type{background:white;border:1px solid #ece5ec;border-radius:14px;padding:18px;font-weight:750;display:flex;gap:10px;align-items:center}.type span{font-size:23px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{border-top:3px solid var(--gold);padding:20px 15px;background:#fff;border-radius:0 0 14px 14px}.num{font-size:12px;font-weight:900;color:var(--purple);letter-spacing:1px}.step h3{font-size:17px;margin:10px 0 8px}.step p{color:var(--muted);font-size:14px;margin:0}
+.lead{background:linear-gradient(125deg,#4b1044,#751d65);color:white}.lead-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:start}.lead .eyebrow{color:var(--gold)}.lead p{color:#ead9e8}.lead-points{padding:0;list-style:none;margin:25px 0}.lead-points li{margin:12px 0;display:flex;gap:9px}.lead-points li:before{content:"✓";color:var(--gold);font-weight:900}
+form{background:white;color:var(--ink);padding:28px;border-radius:20px;box-shadow:0 20px 50px #26051f25}.form-title{font-size:22px;font-weight:850;color:var(--purple);margin:0 0 4px}.form-sub{font-size:13px;color:var(--muted);margin:0 0 20px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field.full{grid-column:1/-1}label{font-size:12px;font-weight:750;display:block;margin-bottom:5px}input,select,textarea{width:100%;border:1px solid #ddd5df;border-radius:10px;padding:12px 13px;font:inherit;font-size:14px;background:#fff;color:var(--ink)}textarea{min-height:85px;resize:vertical}.consent{font-size:11px;color:#777;margin:14px 0}.form-btn{width:100%;margin-top:5px}.fine{font-size:11px;text-align:center;color:#888;margin:10px 0 0}
+footer{padding:32px 0;background:#211b24;color:#ddd}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footer-brand{color:white;font-weight:800}.footer-row p{font-size:12px;color:#bbb;margin:5px 0 0}.footlinks{display:flex;gap:16px;font-size:13px}
+.whatsapp{position:fixed;bottom:18px;right:18px;background:#20b96a;color:#fff;border-radius:50px;padding:13px 17px;font-weight:800;box-shadow:0 7px 20px #0c5a3035;z-index:25}
+@media(max-width:850px){.navlinks{display:none}.hero-grid,.lead-grid{grid-template-columns:1fr}.hero-grid{padding:55px 0}.visual{min-height:260px}.visual-box{width:290px}.cards{grid-template-columns:1fr 1fr}.sell-types{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:540px){section{padding:55px 0}.cards,.sell-types,.steps{grid-template-columns:1fr}.fields{grid-template-columns:1fr}.field.full{grid-column:auto}.profile-card{max-width:100%}.hero-grid{gap:8px}.visual{min-height:240px}.visual-box{width:250px;padding:20px}.visual-box .big{font-size:58px}.btn{width:100%}.whatsapp{font-size:13px;padding:12px 14px}}
+.consent-check{display:flex;align-items:flex-start;gap:9px;font-size:12px;color:#635c64;margin:12px 0}.consent-check input{margin-top:3px}.form-status{font-size:14px;font-weight:700;margin:10px 0;color:var(--purple)}@media(max-width:680px){.brand-lockup img{width:76px}.brand-lockup span{font-size:14px}.brand-lockup small{font-size:9px}.navlinks{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand brand-lockup"><img src="assets/predial-rainha-santa-logo.png" alt="Predial Rainha Santa — Licença AMI 5741"><span>RICARDO CAVACA<small>CONSULTOR IMOBILIÁRIO</small></span></div>
+  <nav class="navlinks"><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#contacto">Avaliação gratuita</a></nav>
+  <a class="btn btn-purple" href="#contacto">Quero vender o meu imóvel</a>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+  <div><p class="eyebrow">Vai vender? Comece com uma decisão informada.</p>
+  <h1>O seu imóvel merece ser vendido pelo <span style="color:var(--gold)">valor certo.</span></h1>
+  <p>Descubra o valor de mercado do seu imóvel e conheça uma estratégia de venda ajustada à realidade, com acompanhamento personalizado do primeiro contacto à escritura.</p>
+  <a class="btn" href="#contacto">PEDIR AVALIAÇÃO GRATUITA <span>→</span></a>
+  <div class="hero-note">✓ Gratuita &nbsp; ✓ Sem compromisso &nbsp; ✓ Confidencial</div>
+  <div class="profile-card"><img src="assets/ricardo-avatar.png" alt="Ricardo Cavaca, consultor imobiliário"><div><strong>Ricardo Cavaca</strong><span>Consultor Imobiliário<br>Predial Rainha Santa · AMI 5741</span></div></div>
+  </div>
+  <div class="visual"><div class="visual-box"><div class="big">€</div><h3>Quanto vale<br>o seu imóvel?</h3><p>Uma análise de mercado profissional é o primeiro passo para vender com confiança.</p><div class="pill">ANÁLISE GRATUITA</div></div></div>
+</div></section>
+<section id="servicos"><div class="wrap"><div class="section-head"><p class="eyebrow">O que posso fazer por si</p><h2>Mais do que colocar um imóvel à venda.</h2><p>Uma estratégia pensada para valorizar o seu imóvel, chegar aos compradores certos e acompanhar todo o processo.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">📊</div><h3>Avaliação de mercado</h3><p>Análise comparativa e definição de um preço de venda realista, tendo em conta o mercado e as características do imóvel.</p></div>
+<div class="card"><div class="icon">📣</div><h3>Divulgação estratégica</h3><p>Apresentação profissional e divulgação nos canais adequados para aumentar a visibilidade junto de potenciais compradores.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Acompanhamento completo</h3><p>Gestão de contactos, visitas, negociação e apoio ao longo das etapas da venda, até à conclusão do negócio.</p></div>
+</div></div></section>
+<section class="soft"><div class="wrap"><div class="section-head"><p class="eyebrow">Trabalho com diferentes tipos de imóveis</p><h2>O que pretende vender?</h2><p>Seja qual for o tipo de propriedade, podemos analisar o seu potencial de mercado.</p></div>
+<div class="sell-types"><div class="type"><span>🏠</span> Moradias</div><div class="type"><span>🏢</span> Apartamentos</div><div class="type"><span>🌳</span> Terrenos</div><div class="type"><span>🌿</span> Quintas e herdades</div><div class="type"><span>🏚️</span> Imóveis para recuperar</div><div class="type"><span>🏬</span> Prédios e imóveis comerciais</div></div></div></section>
+<section id="processo"><div class="wrap"><div class="section-head"><p class="eyebrow">Simples e transparente</p><h2>Como funciona?</h2><p>Quatro passos para começar a preparar a venda do seu imóvel.</p></div>
+<div class="steps"><div class="step"><span class="num">01 · CONTACTO</span><h3>Partilhe os dados</h3><p>Indique o tipo de imóvel e a localização. Entrarei em contacto consigo.</p></div><div class="step"><span class="num">02 · ANÁLISE</span><h3>Avaliação de mercado</h3><p>Analiso as características e comparáveis relevantes para estimar o valor.</p></div><div class="step"><span class="num">03 · ESTRATÉGIA</span><h3>Plano de venda</h3><p>Definimos posicionamento, divulgação e próximos passos, sem compromisso.</p></div><div class="step"><span class="num">04 · ACOMPANHAMENTO</span><h3>Até à concretização</h3><p>Acompanhamento das visitas, propostas, negociação e processo final.</p></div></div></div></section>
+<section class="lead" id="contacto"><div class="wrap lead-grid"><div><p class="eyebrow">Avaliação gratuita e sem compromisso</p><h2>Vamos descobrir quanto pode valer o seu imóvel?</h2><p>Preencha o formulário. Os dados serão preparados numa mensagem de WhatsApp para me contactar diretamente.</p><ul class="lead-points"><li>Sem compromisso de venda</li><li>Resposta personalizada</li><li>Informação tratada de forma confidencial</li></ul><p><strong>Ricardo Cavaca · Consultor Imobiliário</strong><br>📞 920 495 389<br>✉ ricardo.cavaca@predialrainhasanta.pt</p></div>
+<form id="leadForm"><p class="form-title">Peça a sua avaliação</p><p class="form-sub">Preencha os campos. O seu pedido será registado e o Ricardo entrará em contacto consigo.</p>
+<div class="fields">
+<div class="field"><label for="nome">Nome *</label><input id="nome" name="nome" required placeholder="O seu nome"></div>
+<div class="field"><label for="telefone">Telefone *</label><input id="telefone" name="telefone" required type="tel" placeholder="Contacto telefónico"></div>
+<div class="field"><label for="tipo">Tipo de imóvel *</label><select id="tipo" required><option value="">Selecione</option><option>Moradia</option><option>Apartamento</option><option>Terreno</option><option>Quinta / Herdade</option><option>Imóvel para recuperar</option><option>Prédio / Comercial</option><option>Outro</option></select></div>
+<div class="field"><label for="local">Localização *</label><input id="local" required placeholder="Freguesia / concelho"></div>
+<div class="field"><label for="prazo">Quando pretende vender?</label><select id="prazo"><option>Estou apenas a avaliar</option><option>Nos próximos 3 meses</option><option>Entre 3 a 6 meses</option><option>Mais de 6 meses</option><option>Tenho urgência</option></select></div>
+<div class="field"><label for="preco">Preço pretendido (opcional)</label><input id="preco" placeholder="Ex.: 250.000 €"></div>
+<div class="field full"><label for="detalhes">Mais informações (opcional)</label><textarea id="detalhes" placeholder="Área, estado do imóvel, características ou outras informações…"></textarea></div>
+</div><p class="consent">Ao enviar, autoriza o contacto para resposta ao seu pedido de avaliação e o registo dos dados para acompanhamento. Consulte a política de privacidade. Evite incluir informação sensível.</p>
+<label class="consent-check"><input type="checkbox" id="consent" required> Li e aceito o tratamento dos meus dados para responder a este pedido de avaliação.</label>
+<div class="field" style="position:absolute;left:-9999px" aria-hidden="true"><label>Deixe vazio<input id="website" tabindex="-1" autocomplete="off"></label></div>
+<button class="btn btn-purple form-btn" type="submit">PEDIR AVALIAÇÃO GRATUITA →</button><p class="fine">Os seus dados são utilizados para responder ao pedido. Não são vendidos a terceiros.</p><p id="formStatus" class="form-status" role="status" aria-live="polite"></p></form>
+</div></section>
+</main>
+<footer><div class="wrap footer-row"><div><div class="footer-brand">Ricardo Cavaca · Consultor Imobiliário</div><p>Predial Rainha Santa · Lic. AMI 5741</p><p>© <span id="year"></span> · Todos os direitos reservados</p></div><div class="footlinks"><a href="tel:+351920495389">920 495 389</a><a href="mailto:ricardo.cavaca@predialrainhasanta.pt">Email</a></div></div></footer>
+<a class="whatsapp" href="https://wa.me/351920495389?text=Olá%20Ricardo%2C%20gostaria%20de%20falar%20sobre%20a%20venda%20do%20meu%20imóvel." target="_blank" rel="noopener">WhatsApp ↗</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+// Depois de publicar o Google Apps Script como Web App, coloca aqui o URL /exec.
+const GOOGLE_SCRIPT_URL = 'COLAR_AQUI_URL_WEB_APP_GOOGLE_APPS_SCRIPT';
+const form=document.getElementById('leadForm');
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  const v=id=>document.getElementById(id).value.trim();
+  const status=document.getElementById('formStatus');
+  if(v('website')) return; // honeypot anti-spam
+  if(GOOGLE_SCRIPT_URL.startsWith('COLAR_')){
+    status.textContent='O formulário ainda está a ser configurado. Por favor, contacte diretamente o Ricardo pelo 920 495 389.';
+    return;
+  }
+  const payload={
+    nome:v('nome'), telefone:v('telefone'), tipo:v('tipo'), local:v('local'),
+    prazo:v('prazo'), preco:v('preco'), detalhes:v('detalhes'),
+    consentimento:document.getElementById('consent').checked ? 'Sim':'Não',
+    source:location.href
+  };
+  const btn=form.querySelector('button[type="submit"]');
+  btn.disabled=true;btn.textContent='A ENVIAR…';status.textContent='';
+  try{
+    const body=new URLSearchParams(payload);
+    await fetch(GOOGLE_SCRIPT_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'},body});
+    status.textContent='Pedido enviado! Obrigado. O Ricardo irá entrar em contacto consigo brevemente.';
+    form.reset();
+  }catch(err){
+    status.textContent='Não foi possível enviar automaticamente. Por favor contacte o Ricardo pelo 920 495 389.';
+  }finally{
+    btn.disabled=false;btn.textContent='PEDIR AVALIAÇÃO GRATUITA →';
+  }
+});
+</script>
+</body></html>
